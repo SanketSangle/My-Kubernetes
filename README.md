@@ -16,9 +16,9 @@ namespace: to devide the k8s cluster. segregate the resource.
 replicationcontroller: responsible for creating replicas of the pod.used equality base selector. 
 
 replicaset: responsible for creating replicas of pod.used set based selector multiple lable selector 
-is possible. multile lable selector is possible.
+is possible. multiple lable selector is possible.
 
-deployment: deployment is responsible for implementing deployment tratagies on replicaset
+deployment: deployment is responsible for implementing deployment stratagies on replicaset
 
 statefulset: responsible for managing the replicas of the stateful pod.
 
@@ -26,6 +26,6 @@ Daemonset: responsile for managing the replicas of the pods on every node
 
 ConfigMap: to store variables 
 
-secret: to store confiantial variables 
+secret: to store confidantial variables 
 
 
