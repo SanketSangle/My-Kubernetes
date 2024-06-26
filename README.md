@@ -28,7 +28,7 @@ ConfigMap: to store variables
 
 secret: to store confidantial variables 
 
-HAP: (Horizontal Pod Autoscaling) 
+HPA: (Horizontal Pod Autoscaling) 
 
 minimum , maximum , desired capacity, condition,matrix (cpu utilization) 
 
